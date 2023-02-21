@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Tourney:ital,wght@1,500&display=swap" rel="stylesheet">
+	<style type="text/css">
+		h1, h2, h3{
+			font-family: Tourney;
+		}
+		p,td{
+			font font-family: 'Jockey One', sans-serif;
+
+		}
+		img{
+			height: 300px;
+			width: 300px;
+		}
+		body{
+			background: url(https://i.pinimg.com/564x/e1/2a/6d/e12a6d0e95d2983dff722a1eb483fef5.jpg);
+			background-size: cover;
+			color: white;
+		}
+	</style>
+	<title>Q3-Exercise 2</title>
+</head>
+<body>
+	<div class="container">
+	<h1>Scuderia Ferrari Drivers Throughout the Years</h1>
+	<table class="table table-striped table-dark table-info table-hover">
+		<tr>
+			<th>PROFILE</th>
+			<th>FULL NAME</th>
+			<th>DESCRIPTION</th>
+			<th>YEARS</th>
+		</tr>
+		<tr>
+			<td><img src="https://i2-prod.mirror.co.uk/incoming/article25667601.ece/ALTERNATES/s1200c/2_GettyImages-72220757.jpg" class="rounded-circle"></td>
+			<td>Michael Schumacher</td>
+			<td><div class="col-9 text-justify">Schumacher was noted for pushing his car to the very limit for sustained periods during races, a pioneering fitness regimen and ability to galvanise teams around him. He and his younger brother Ralf are the only siblings to win races in Formula One and the first siblings to finish first and second in the same race, a feat they repeated in four subsequent races. Over his career, Schumacher was involved in several controversial racing incidents. Twice, he was involved in collisions in the final race of a season that decided the title: first with Damon Hill at the 1994 Australian Grand Prix, and later with Jacques Villeneuve at the 1997 European Grand Prix.</td>
+			<td>(1996–2006)</td></div>
+		</tr>
+		<tr>
+			<td><img src="https://i.guim.co.uk/img/media/528397468632b5fc69440691bd7f040cecc8a58e/0_148_4000_2399/master/4000.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=5cf7e7d49b5bad9246f22beba43e38c2" class="rounded-circle"></td>
+			<td>Sebastian Vettel</td>
+			<td><div class="col-9 text-justify">Statistics don’t measure greatness, but Sebastian Vettel’s four world championships, 53 victories and 57 pole positions automatically qualify him for that status. The only question is one of magnitude, of how great he is. We can now attempt to answer following his Formula 1 retirement. Vettel’s career trajectory is curious. A meteoric rise through the junior ranks, almost-immediate success with an unheralded Toro Rosso team then, before the age of 27, he’d produced the vast majority of his F1 success with Red Bull.</td>
+			<td>(2015-2020)</td></div>
+		</tr>
+		<tr>
+			<td><img src="https://www.cityam.com/wp-content/uploads/2022/04/GettyImages-1390002176.jpg" class="rounded-circle"></td>
+			<td>Charles Leclerc</td>
+			<td><div class="col-9 text-justify">A precocious champion with breathtaking talent, Monaco’s Charles Leclerc is pursuing a sensational career in motorsport. He has not stopped developing his innate talent since the earliest days, thanks to his sharp intelligence, a pronounced taste for hard work and an exceedingly likeable personality. Having entered Formula 1 in 2018 with Alfa Romeo Sauber F1, his dream continued in 2019 inside the prestigious Scuderia Ferrari alongside four-time World Champion Sebastian Vettel.</td>
+			<td>(2016-present)</td></div>
+		</tr>
+		<tr>
+			<td><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/carlos-sainz-jr-esp-team-scuderia-ferrari-during-the-grand-news-photo-1644783460.jpg?crop=0.670xw:1.00xh;0.0969xw,0&resize=1200:*" class="rounded-circle"></td>
+			<td>Carlos Sainz Jr.</td>
+			<td><div class="col-9 text-justify">After entering F1’s Bull Ring paired alongside Max Verstappen at Toro Rosso in 2015, Sainz quickly showed his fighting spirit. A tenacious racer, he puts the car on the edge as he hustles his way through the pack. No wonder Sainz has earned the nickname Chilli. But the Spaniard is intelligent as well as instinctive, thinking his way through a race and into the points. This calm temperament follows him off track where he remains unfazed by the pressures of forging a Grand Prix career with a famous name. </td>
+			<td>(2021-present)</td></div>
+		</tr>
+	</table>
+	<h2 class="bg-dark text-light">BOOTSTRAP FORM</h2>
+	<form class="form-group">
+		Enter Firstname: <input type="text" name="Firstname" class="form-control">
+		Enter Lastname:	<input type="text" name="Lastname" class="form-control"><br>
+		Select Chosen Driver:
+		<select class="form-control">
+			<option>Select *Others*</option>
+			<option>Michael Schumacher</option>
+			<option>Sebastian Vettel</option>
+			<option>Charles Leclerc</option>
+			<option>Carlos Sainz Jr.</option>
+		</select>
+		<br>
+		🏎️ [TIFOSI YEARS?]
+		<input type="date" name="enrolled" class="form-control"><br>
+		<input type="Submit" value="ADD STUDENT" class="btn btn-info text-light">
+		<input type="Reset" value="CANCEL" class="btn btn-warning text-dark">
+		<input type="File" name="Picture">
+
+	</form>
+	<h6 class="bg-dark text-light">REFERENCES:</h6>
+	<a href="https://www.formula1.com/">https://www.formula1.com/</a>
+	</div>
+</body>
+</html>
